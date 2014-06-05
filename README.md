@@ -13,8 +13,7 @@ El proyecto consta de dos colaboradores listados a continuación.
 
 Se especifican todos los enlaces necesarios.
 
-* Despliegue en Web: [Web](http://www.dionizdev.com/)
-* Repositorio del proyecto: [Repositorio](https://github.com/PL-Team/PLPROYECT/)
+* Repositorio del proyecto: [Repositorio](https://github.com/edudioniz/PlaneJS/)
 
 # Ejemplo de programa:
 //PRGRAMA
