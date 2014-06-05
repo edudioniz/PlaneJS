@@ -17,6 +17,6 @@ $ java -jar PL.jar
 Una vez ejecutado , seguir los pasos.
 - Seleccionar el fichero descargado de la web.
 - Indicar una de las rutas cargadas.
-- Observar la simulaciín y disfrutar del vuelo.
+- Observar la simulación y disfrutar del vuelo.
 
 
