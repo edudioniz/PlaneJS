@@ -1,66 +1,22 @@
-# PlaneJS
+PLPROYECT
+=========
 
-Proyecto final de la asignatura **Procesadores de Leguajes**
+Proyecto final de la asignatura Procesadores de Leguajes
 
-# Colaboradores
+# Descripción
 
-El proyecto consta de dos colaboradores listados a continuación.
+Es un simulador de los ficheros generados por el parser PlaneJS , en el se puede comprobar de forma visual , el recorrido que debería realizar el aeroplano de una forma facil y intuitiva
 
-* Eduardo Jesús Díaz Dioniz
-* Francisco José Alderete Gonzalez
+# Forma de uso
 
-# Enlaces
+Una vez realizada la generación del fichero en la [web](http://dionizdev.com) se necesita descargar los ficheros que esta rama contienen , tener derechos para la ejecución . usar el comando
 
-Se especifican todos los enlaces necesarios.
-
-* Despliegue en Web: [Web](http://www.dionizdev.com/)
-* Repositorio del proyecto: [Repositorio](https://github.com/PL-Team/PLPROYECT/)
-
-# Ejemplo de programa:
-//PRGRAMA
-program vuelo0123{
-    //VAR GLOBALES
-    line trayectoMaritimo;
-    trayectoMaritimo = (3,2),(8,9);
-    //BLOQUE 1
-    route TFM {
-        point giro;
-        giro = 3,3;
-        line trayectoTF1;
-        trayectoTF1 = (4,3),giro;
-        line trayectoTF2;
-        trayectoTF2 = giro,(6,4);              
-        line trayectoMTOA;
-        trayectoMTOA = (5,4),(5,3);
-        set  trayectoTF1+trayectoTF2+trayectoMaritimo+trayectoMTOA;        
-    };
-    //BLOQUE 2
-    route BDC {
-        line trayectoT1;
-        trayectoT1 = (4,3),(6,4);
-        line trayectoMTOA;
-        trayectoMTOA = (5,4),(5,3);        
-        set trayectoT1+trayectoMaritimo+ trayectoMTOA;
-    };
-}
+```bash
+$ java -jar PL.jar 
+```
+Una vez ejecutado , seguir los pasos.
+- Seleccionar el fichero descargado de la web.
+- Indicar una de las rutas cargadas.
+- Observar la simulaciín y disfrutar del vuelo.
 
 
-Ejemplo de interpretación
-
-TFM
-	4,3
-	3,3
-	6,4
-	3,2
-	8,9
-	5,4
-	5,3
-END
-BDC
-	4,3
-	6,4
-	3,2
-	8,9
-	5,4
-	5,3
-END
