@@ -9,7 +9,7 @@ Es un simulador de los ficheros generados por el parser PlaneJS , en el se puede
 
 # Forma de uso
 
-Una vez realizada la generación del fichero en la [web](http://dionizdev.com) se necesita descargar los ficheros que esta rama contienen , tener derechos para la ejecución . usar el comando
+Una vez realizada la generación del fichero en la [web](http://planejs.dionizdev.com) se necesita descargar los ficheros que esta rama contienen , tener derechos para la ejecución . usar el comando
 
 ```bash
 $ java -jar PL.jar 
